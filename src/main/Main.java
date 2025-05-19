@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        String API_KEY = "4a26eabe71d608ee442675a2";
+        String API_KEY = "COLE-SUA-API-KEY-AQUI";
         String URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/BRL";
 
         HttpClient client = HttpClient.newHttpClient();
